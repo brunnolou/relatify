@@ -1,6 +1,6 @@
 {
   "name": "relatify",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "description": "Get the relative position of user interaction",
   "main": "lib/index.js",
   "scripts": {
