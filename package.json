@@ -1,0 +1,32 @@
+{
+  "name": "relatify",
+  "version": "0.3.4",
+  "description": "Get the relative position of user interaction",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "animation",
+    "relative",
+    "input",
+    "interaction",
+    "reactive"
+  ],
+  "author": "Bruno Lourenco",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.7.0"
+  },
+  "dependencies": {
+    "rebound": "^0.0.13"
+  },
+  "peerDependencies": {
+    "rebound": "^0.0.13"
+  }
+}

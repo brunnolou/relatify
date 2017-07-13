@@ -1,0 +1,18 @@
+{
+  "name": "relatify-demo",
+  "version": "1.0.0",
+  "description": "Relatify demo",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "neutrino start --presets neutrino-preset-web"
+  },
+  "author": "Bruno Lourenço",
+  "license": "MIT",
+  "devDependencies": {
+    "neutrino": "^4.3.1",
+    "neutrino-preset-web": "^4.2.3"
+  },
+  "dependencies": {
+    "rebound": "0.0.13"
+  }
+}
